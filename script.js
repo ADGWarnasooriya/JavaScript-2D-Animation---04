@@ -1,0 +1,1 @@
+var viking = document.getElementById("viking");
