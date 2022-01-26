@@ -3,6 +3,6 @@ var vikingBackgroundPositionX = 0;
 var vikingIdleAnimationId = 0;
 
 function vikingIdleAnimation() {
-    vikingIdleAnimationNumber = vikingIdleAnimationNumber - 512.1;
-    viking.style.marginLeft = vikingIdleAnimationNumber
+    vikingBackgroundPositionX = vikingBackgroundPositionX - 512.1;
+    viking.style.marginLeft.BackgroundPositionX = vikingBackgroundPositionX
 }
