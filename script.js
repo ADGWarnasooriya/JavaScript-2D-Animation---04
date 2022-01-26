@@ -23,3 +23,17 @@ function trollIdleAnimation() {
 function trollIdleAnimationStart() {
     trollIdleAnimationId = setInterval(trollIdleAnimation, 200);
 }
+
+function eventHandling(event) {
+
+    var keycode = event.which;
+
+    if (keyCode == 68) {
+        //D
+    }
+
+    if (keyCode == 37) {
+        //left arrow
+    }
+
+}
