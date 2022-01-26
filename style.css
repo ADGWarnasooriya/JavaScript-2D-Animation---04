@@ -9,5 +9,6 @@ body {
     height: 512px;
     /* background-color: red; */
     background-image: url(./viking.png);
+    position: absolute;
     margin-top: 200px;
 }
