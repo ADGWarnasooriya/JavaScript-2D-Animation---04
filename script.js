@@ -37,3 +37,10 @@ function eventHandling(event) {
     }
 
 }
+
+var vikingBackgroundPositionY = 0;
+
+function vikingWalkAnimation() {
+    vikingBackgroundPositionY = -512;
+    viking.style.backgroundPositionY = vikingBackgroundPositionY + "px";
+}
