@@ -3,3 +3,8 @@ body {
     background-repeat: repeat-x;
     background-size: 100vw 100vh;
 }
+
+.viking {
+    width: 512.1px;
+    height: 512px;
+}
