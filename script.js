@@ -44,3 +44,10 @@ function vikingWalkAnimation() {
     vikingBackgroundPositionY = -512;
     viking.style.backgroundPositionY = vikingBackgroundPositionY + "px";
 }
+
+var trollBackgroundPositionY = 0;
+
+function trollWalkAnimation() {
+    trollBackgroundPositionY = -512;
+    troll.style.backgroundPositionY = trollBackgroundPositionY + "px";
+}
