@@ -10,7 +10,8 @@ body {
     /* background-color: red; */
     background-image: url(./viking.png);
     position: absolute;
-    margin-top: 200px;
+    margin-top: 250px;
+    transform: scale(0.6);
 }
 
 .troll {
