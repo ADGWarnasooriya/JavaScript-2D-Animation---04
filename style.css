@@ -20,6 +20,6 @@ body {
     background-image: url(./troll.png);
     position: absolute;
     transform: scaleX(-1.2) scaleY(1.2);
-    margin-top: 350px;
+    margin-top: 355px;
     margin-left: 1000px;
 }
