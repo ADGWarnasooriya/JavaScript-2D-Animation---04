@@ -26,19 +26,20 @@ function trollIdleAnimationStart() {
     trollIdleAnimationId = setInterval(trollIdleAnimation, 200);
 }
 
-// function eventHandling(event) {
+function eventHandling(event) {
 
-//     var keycode = event.which;
+    var keycode = event.which;
+    alert(keycode);
 
-//     if (keyCode == 68) {
-//         //D
-//     }
+    //     if (keyCode == 68) {
+    //         //D
+    //     }
 
-//     if (keyCode == 37) {
-//         //left arrow
-//     }
+    //     if (keyCode == 37) {
+    //         //left arrow
+    //     }
 
-// }
+}
 
 // var vikingBackgroundPositionY = 0;
 
