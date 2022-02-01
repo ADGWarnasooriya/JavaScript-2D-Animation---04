@@ -16,7 +16,7 @@ body {
 
 .troll {
     width: 425px;
-    height: 262.8px;
+    height: 263.8px;
     background-image: url(./troll.png);
     position: absolute;
     transform: scaleX(-1.2) scaleY(1.2);
