@@ -29,28 +29,33 @@ function trollIdleAnimationStart() {
 function eventHandling(event) {
 
     var keycode = event.which;
-    alert(keycode);
+    // alert(keycode);
 
-    //     if (keyCode == 68) {
-    //         //D
-    //     }
+    if (keyCode == 68) {
+        vikingWalkAnimation();
+        //D
+    }
 
-    //     if (keyCode == 37) {
-    //         //left arrow
-    //     }
+    if (keyCode == 37) {
+        //left arrow
+        trollWalkAnimation();
+    }
 
 }
 
-// var vikingBackgroundPositionY = 0;
 
-// function vikingWalkAnimation() {
-//     vikingBackgroundPositionY = -512;
-//     viking.style.backgroundPositionY = vikingBackgroundPositionY + "px";
-// }
+var vikingBackgroundPositionY = 0;
 
-// var trollBackgroundPositionY = 0;
+function vikingWalkAnimation() {
+    vikingBackgroundPositionX = 0;
+    vikingBackgroundPositionY = -512;
+    viking.style.backgroundPositionY = vikingBackgroundPositionY + "px";
+}
 
-// function trollWalkAnimation() {
-//     trollBackgroundPositionY = -512;
-//     troll.style.backgroundPositionY = trollBackgroundPositionY + "px";
-// }
+var trollBackgroundPositionY = 0;
+
+function trollWalkAnimation() {
+    trollBackgroundPositionX = 0;
+    trollBackgroundPositionY = -262.8;
+    troll.style.backgroundPositionY = trollBackgroundPositionY + "px";
+}

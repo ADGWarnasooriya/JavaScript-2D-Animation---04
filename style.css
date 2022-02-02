@@ -6,7 +6,7 @@ body {
 
 .viking {
     width: 512.1px;
-    height: 510px;
+    height: 512px;
     /* background-color: red; */
     background-image: url(./viking.png);
     position: absolute;
