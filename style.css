@@ -10,7 +10,7 @@ body {
     /* background-color: red; */
     background-image: url(./viking.png);
     position: absolute;
-    margin-top: 250px;
+    margin-top: 255px;
     transform: scale(0.6);
 }
 
